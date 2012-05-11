@@ -1,8 +1,19 @@
 <html>
     <head>
         <title></title>
+        <script type="text/javascript" src="/public/js/jquery-1.7.1.js"></script>
     </head>
     <body>
-        demo 
+    <script>
+        $(function(){
+            $.post('/index/demo',function(data){
+                window.console ? console.log(data) : alert(data); 
+            });
+                
+                
+        });
+    
+    </script>
+        demo
     </body>
 </html>
