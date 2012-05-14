@@ -26,5 +26,10 @@ class Bootstrap extends Yaf_Bootstrap_Abstract {
         );
         $router->addRoute('dummy', $route); 
     }
+    
+    // load  function
+    public function _initLoad() {
+        require(APP_PATH."/application/library/AFException.php");
+    }
 }
 

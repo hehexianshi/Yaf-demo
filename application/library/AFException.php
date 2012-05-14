@@ -22,7 +22,7 @@ function AFException($error, $errstr, $errfile, $errline)
             break;
     }
     if(!$inputFile){
-        /**
+        /*
          *  写入文件
          */
     }

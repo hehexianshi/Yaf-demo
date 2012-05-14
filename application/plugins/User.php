@@ -10,5 +10,6 @@ class UserPlugin extends Yaf_plugin_Abstract {
        // echo "生效地址:". Yaf_Dispatcher::getInstance()->getRouter()->getCurrentRoute();
     
     }
+    
 
 }
